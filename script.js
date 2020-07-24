@@ -1,6 +1,5 @@
 function validar(){
     var rut = document.getElementById('rut').value;
-
     var serieNum = 2;
     var suma = 0;
     
@@ -16,17 +15,19 @@ function validar(){
     
     var res=11-(suma%11);
     console.log("el dv es:" + res);
-    
     var dv = document.getElementById('dv').value;
+
     
     if(dv == res){
+        if(dv == 11){
+            dv=0;
+        }
         alert('El RUT <' + rut + '-' + dv +'> es válido');
         document.getElementById('test').innerHTML = "El rut es válido";
-    } else if (dv=='k' && res==10){
+    } else if(dv=='k' && res==10){
         alert('El RUT <' + rut + '-' + dv +'> es válido');
         document.getElementById('test').innerHTML = "El rut es válido";
     } else{
         alert('RUT no valido');
-        document.getElementById('test').innerHTML = "El rut no es válido";
     }
 }

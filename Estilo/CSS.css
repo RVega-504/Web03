@@ -1,9 +1,8 @@
 body{
-    font-family: Roboto,sans-serif;;
+    font-family: Roboto,sans-serif;
 }
 
-div{
-    background-color: #F5F5F5;
+#divFormulario{
     box-shadow: 7px 13px 37px #000;
     padding: 20px 30px;
     height: 270px;
