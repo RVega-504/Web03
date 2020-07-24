@@ -20,8 +20,11 @@ function validar(){
     var dv = document.getElementById('dv').value;
     
     if(dv == res){
+        alert('El RUT <' + rut + '-' + dv +'> es válido');
         document.getElementById('test').innerHTML = "El rut es válido";
     } else if (dv=='k' && res==10){
+        alert('El RUT <' + rut + '-' + dv +'> es válido');
+        alert("RUT no válido");
         document.getElementById('test').innerHTML = "El rut es válido";
     } else{
         alert("RUT no valido");
