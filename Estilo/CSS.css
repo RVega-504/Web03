@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto,sans-serif;;
+}
+
+div{
+    background-color: #F5F5F5;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    height: 270px;
+    width: 400px;
+    margin-top: 180px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+h2{
+    margin: 0px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+#rut{
+    box-sizing: border-box;
+    width: 60%;
+    border: 1px solid #2E2E12;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    font-size: 14px;
+}
+
+#dv{
+    box-sizing: border-box;
+    width: 20%;
+    border: 1px solid #2E2E12;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+    font-size: 14px;
+}
+
+.boton{
+    float: right;
+    margin-top: 40px;
+    padding: 11px 10px;
+    width: 50%;
+    font-weight: bold;
+    background-color: #5268d2; 
+    color: white;
+}
+
+.boton:hover{
+    background-color: #2e4bd4;
+}
+
+.mensaje{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#test{
+    margin-top: 30px; 
+    font-size: 10px;
+}
